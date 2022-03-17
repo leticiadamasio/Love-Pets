@@ -52,57 +52,56 @@ const List = styled.li`
   background-color: #7785AC;
 `
 
-export default class Dogs extends Component {
+export default class Cats extends Component {
   state={
-    dogs:[
+    cats:[
     {
-      Photo: "https://www.clubeparacachorros.com.br/wp-content/uploads/2014/07/labrador-preto-sentado.jpg",
-      Name:"Ryan",
-      Age: "2 years old",
-      Breed:"Labrador"
+      Photo:"https://i0.wp.com/petcaramelo.com/wp-content/uploads/2021/03/ragdoll-gato.jpg?resize=626%2C417&ssl=1",
+      Name:"Oliver",
+      Age:"2 months",
+      Breed:"Ragdoll"
 
-    },
-    {
-      Photo: "https://cdn.jd1noticias.com/upload/dn_noticia/2017/02/121094419.jpg",
-      Name:"Miller",
-      Age: "1 years old",
-      Breed:"Pitbull"
+   },
+   {
+      Photo:"https://cdn.vidaativa.pt/uploads/2018/03/munchkin-gato.jpg",
+      Name:"Mia",
+      Age:"4 years old",
+      Breed:"Munchkin"
 
-    },
-    {
-      Photo: "https://www.adoropets.com.br/wp-content/uploads/2018/06/bichon-sentado.jpg",
-      Name:"Maia",
-      Age:"2 years old",
-      Breed:"Poochon"
-
-    },
-    {
-      Photo: "https://www.racasdecachorro.com.br/wp-content/uploads/2019/04/769-chihuahua-379738561.jpg",
-      Name:"Princesa",
-      Age:"8 years old",
-      Breed:"Chihuahua"
-
-    },
-    {
-      Photo: "https://www.zooplus.pt/magazine/wp-content/uploads/2017/03/dobermann-pinscher-welpe-1024x678.jpg",
-      Name:"Belinha",
-      Age:"5 months",
-      Breed:"Doberman"
-
-    },
-    {
-      Photo:"https://image.cachorrogato.com.br/thumb/800/600/1/imagens/racas/imagem150.jpg",
-      Name:"Ralf",
+   },
+   {
+      Photo:"https://t1.ea.ltmcdn.com/pt/posts/1/7/4/nomes_para_gatos_cinzas_22471_orig.jpg",
+      Name:"Dylan",
       Age:"3 years old",
-      Breed:"Husky siberiano"
+      Breed:"Scottish Fold"
 
-    },
+   },
+   {
+      Photo:"https://i0.wp.com/petcaramelo.com/wp-content/uploads/2021/06/Gato-Chartreux-14.jpg?resize=661%2C529&ssl=1",
+      Name:"Afrodite",
+      Age:"2 months",
+      Breed:"Chartreux"
+
+   },
+   {
+      Photo:"https://wpets.com.br/wp-content/uploads/2020/04/20101212_128.jpg",
+      Name:"Loki",
+      Age:"1 years old",
+      Breed:"British Longhair"
+
+   },
+   {
+      Photo: "https://t2.ea.ltmcdn.com/pt/posts/7/9/3/nomes_para_gatos_pretos_22397_orig.jpg",
+      Name:"Mulan",
+      Age:"1 months",
+      Breed:"Birmanês"
+
+   },
   ],
-  listdog:[],
+  listcat:[],
 }
-
-  dogs = ()=>{
-   this.setState({listdog: this.state.dogs.map((item) => (
+  cats = ()=>{
+   this.setState({listcat: this.state.cats.map((item) => (
           <div>
               <Cards>
                 <List><Image src={item.Photo}/></List>
@@ -117,10 +116,10 @@ export default class Dogs extends Component {
 render(){
     return(
      <Box>
-       <Title id='Puppies to adopt'>Puppies to adopt</Title>
-       <SubTitle onClick={this.dogs}>Information about the dogs</SubTitle>
+       <Title id='Cats to adopt'>Cats to adopt</Title>
+       <SubTitle onClick={this.cats}>Information about the cats</SubTitle>
       <Container>
-        {this.state.listdog}
+        {this.state.listcat}
       </Container>
      </Box>
     )

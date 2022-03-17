@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Dogs from './components/Dogs'
+import Dogs from './Dogs'
+import Cats from './Cats'
 import Img from '../img/pet.png'
 import Image from '../img/menandpet.png'
 import Images from '../img/womanandpet.png'
 
 const Body_structure = styled.section`
    background-color: #5B2A86;
-   height: 100vh;
+   height: 100%;
    width: 100%;
 `
 const Title = styled.h2`
@@ -19,11 +20,12 @@ const Title = styled.h2`
   color: white;
   width: 40vw;
 `
-const Container = styled.section`
+const Container = styled.div`
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    height: 40vh;
+   margin-top: 5vh;
 `
 const Cards = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
@@ -33,7 +35,6 @@ const Cards = styled.div`
   background-color: #7785AC;
   width: 27vw;
   height: 35vh;
-
 `
 const Image_pet =styled.img`
   position: relative;
@@ -58,7 +59,7 @@ export default class Main extends Component {
     return (
       <Body_structure>
        <Title id='Home'>Por que adotar?</Title>
-      <Container>
+     <Container>
        <Cards>
          <Image_pet src={Img}/>
          <Text>Nesse exato momento, existem milhares de doguinhos e gatinhos esperando um humano para chamar de seu.</Text>
@@ -73,6 +74,7 @@ export default class Main extends Component {
        </Cards>
       </Container>
       <Dogs/>
+      <Cats/>
     </Body_structure>
     )
   }

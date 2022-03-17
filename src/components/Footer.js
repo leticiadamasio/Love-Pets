@@ -22,10 +22,10 @@ export default class Footer extends Component {
     return (
       <Container id='Social'>
        <Icons>
-         <Images src={Instagram}/>
-         <Images src={Facebook}/>
-         <Images src={Twitter}/>
-         <Images src={Whatsapp}/>
+         <a href='https://www.instagram.com/lele_damasio/' target="_blank"><Images src={Instagram}/></a>
+         <a href='https://www.facebook.com/lele.damasio/' target="_blank"><Images src={Facebook}/></a>
+         <a href='https://twitter.com/Leticdamas' target="_blank"><Images src={Twitter}/></a>
+         <a href='https://wa.me/21999134926?text=Tive%20interesse%20no%20pet:%20' target="_blank"><Images src={Whatsapp}/></a>
        </Icons> 
       </Container>
     )
