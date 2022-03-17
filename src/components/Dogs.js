@@ -34,7 +34,6 @@ const Container = styled.div`
    margin-top: 10vh;
    margin-left: 10vw;
    width: 80%;
-   height: 130vh;
 `
 const Cards = styled.ul`
   font-family: 'Merriweather Sans', sans-serif;
@@ -51,7 +50,19 @@ const List = styled.li`
   color: white;
   background-color: #7785AC;
 `
-
+const Text = styled.p`
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.75;
+  width: 30vw;
+  color: white;
+  position: relative;
+  left: 4.68vw;
+  top: 6vh;
+`
 export default class Dogs extends Component {
   state={
     dogs:[
@@ -119,6 +130,8 @@ render(){
      <Box>
        <Title id='Puppies to adopt'>Puppies to adopt</Title>
        <SubTitle onClick={this.dogs}>Information about the dogs</SubTitle>
+       <Text>O cachorrinho que você procura para alegrar sua família está aqui, só esperando pela chance de te fazer mais feliz!
+         Hoje somos ponte entre o cachorrinho que precisa de um lar e o humano que precisa amar. Clicando no título acima você tem acesso a todos os dogs que estão disponíveis para adoção.</Text>
       <Container>
         {this.state.listdog}
       </Container>

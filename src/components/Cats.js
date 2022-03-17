@@ -34,7 +34,6 @@ const Container = styled.div`
    margin-top: 10vh;
    margin-left: 10vw;
    width: 80%;
-   height: 130vh;
 `
 const Cards = styled.ul`
   font-family: 'Merriweather Sans', sans-serif;
@@ -50,6 +49,19 @@ const List = styled.li`
   font-size: 3vh;
   color: white;
   background-color: #7785AC;
+`
+const Text = styled.p`
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.75;
+  width: 30vw;
+  color: white;
+  position: relative;
+  left: 4.68vw;
+  top: 6vh;
 `
 
 export default class Cats extends Component {
@@ -118,6 +130,8 @@ render(){
      <Box>
        <Title id='Cats to adopt'>Cats to adopt</Title>
        <SubTitle onClick={this.cats}>Information about the cats</SubTitle>
+       <Text>O gatinho que você procura para alegrar sua família está aqui, só esperando pela chance de te fazer mais feliz!
+         Hoje somos ponte entre o gatinho que precisa de um lar e o humano que precisa amar. Clicando no título acima você tem acesso a todos os cats que estão disponíveis para adoção.</Text>
       <Container>
         {this.state.listcat}
       </Container>
