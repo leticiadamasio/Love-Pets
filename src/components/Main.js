@@ -7,40 +7,58 @@ import Image from '../img/menandpet.png'
 import Images from '../img/womanandpet.png'
 
 const Body_structure = styled.section`
-   background-color: #5B2A86;
-   height: 100%;
-   width: 100%;
+  background-color: #5B2A86;
 `
 const Title = styled.h2`
   font-family: 'Merriweather Sans', sans-serif;
-  position: relative;
-  top: 3vh;
-  left: 4.68vw;
+  padding-top: 4vh;
+  margin-left: 4.68vw;
   font-size: 4.5vh;
   color: white;
   width: 40vw;
+  @media (max-width:375px){
+    font-size: 3.5vh;
+  }
+  
 `
 const Container = styled.div`
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   height: 40vh;
-   margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 40vh;
+  margin-top: 5vh;
+  @media (max-width:375px){
+    margin-top: 2vh;
+  }
 `
 const Cards = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
   display: flex;
-  position: relative;
-  top: 4vh;
+  flex-wrap: wrap;
   background-color: #7785AC;
   width: 27vw;
   height: 35vh;
+  @media (max-width:375px){
+   width: 80vw;
+   margin-top: 2vh;
+  }
+  @media (max-width:768px){
+    width: 40vw;
+    margin-top: 2vh;
+   }
+  
 `
 const Image_pet =styled.img`
-  position: relative;
-  top: 3vh;
-  left: 1vw;
+  margin-top: 3vh;
+  margin-left: 1vw;
   height: 25vh;
+  @media (max-width:375px){
+    height: 20vh;
+  }
+  @media (max-width:768px){
+    height: 20vh;
+    margin-top: 5.5vh;
+  }
 `
 const Text = styled.p`
   display: flex;
@@ -50,8 +68,14 @@ const Text = styled.p`
   line-height: 1.5;
   width: 13vw;
   color: white;
-  position: relative;
-  left: 1vw;
+  margin-left: 1vw;
+  @media (max-width:375px){
+    width:45vw;
+  }
+  @media (max-width:768px){
+    width:20vw;
+    font-size: 3vh;
+  }
 `
 
 export default class Main extends Component {

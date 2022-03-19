@@ -8,23 +8,40 @@ const Images = styled.div `
   width: 100%;
   display: flex;
   align-items: center;
-`
-const Dog = styled.img`
-  position: relative;
-  left: 15vw;
+` 
+  const Dog = styled.img`
+  margin-left: 15vw;
   width: 7vw;
+  @media (max-width:375px){
+   width:15vw;
+   margin-left: 10vw;
+  }
+  @media (max-width:768px){
+    width:15vw;
+    margin-left: 10vw;
+   }
 `
 const Cat = styled.img`
-  position: relative;
-  left: 15vw;
   width: 5vw;
+  @media (max-width:375px){
+   width:10vw;
+  }
+  @media (max-width:768px){
+    width:10vw;
+   }
 `
 const Title = styled.h1`
   font-family: 'Indie Flower', cursive;
-  position: relative;
-  left: 30vw;
   font-size: 15vh;
   color: black;
+  margin-left: 15vw;
+  @media (max-width:375px){
+  font-size:9vh;
+  margin-left: 2vw;
+  }
+  @media (max-width:768px){
+    margin-left: 7vw;
+    }
 `
 const Menu = styled.ul`
   font-family: 'Merriweather Sans', sans-serif;
@@ -33,6 +50,10 @@ const Menu = styled.ul`
   justify-content: space-evenly;
   color: black;
   background-color: #A5E6BA;
+  @media (max-width:375px){
+  font-size: 2.5vh;
+  }
+
 `
 const List =styled.a`
    text-decoration:none;
@@ -41,6 +62,13 @@ const List =styled.a`
    display:flex;
    align-items: center;
    justify-content: center;
+   @media (max-width:375px){
+    width:25vw;
+    text-align: center;
+  }
+  @media (max-width:768px){
+    text-align: center;
+  }
 `
 export default class Header extends Component {
     render(){

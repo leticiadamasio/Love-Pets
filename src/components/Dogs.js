@@ -7,25 +7,49 @@ const Box = styled.section`
 
 const Title = styled.h1`
   font-family: 'Merriweather Sans', sans-serif;
-  position: relative;
-  top: 3vh;
-  left: 4.68vw;
+  margin-top: 3vh;
+  margin-left: 4.68vw;
   font-size: 4.5vh;
   color: white;
   width: 20vw;
+  @media (max-width:375px){
+    width: 70vw;
+    margin-top: 75vh;
+  }
+  @media (max-width:768px){
+    margin-top: 40vh;
+    width: 60vw;
+  }
 `
 const SubTitle = styled.h2`
   font-family: 'Merriweather Sans', sans-serif;
-  position: relative;
-  top: 5vh;
-  left: 4.68vw;
+  margin-top: 5vh;
+  margin-left: 4.68vw;
   font-size: 4.5vh;
   color: white;
   width: 30vw;
+  text-decoration: underline;
+  width: 20vw;
+  @media (max-width:375px){
+    width: 90vw;
+    margin-top: 2vh;
+  }
+  @media (max-width:768px){
+    width: 45vw;
+    margin-top: 3vh;
+  }
 `
 const Image = styled.img`
   width: 21vw;
   height: 35vh;
+  @media (max-width:375px){
+    width: 55vw;
+    height: 40vh;
+  }
+  @media (max-width:768px){
+    width: 35vw;
+    height: 40vh;
+  }
 `
 const Container = styled.div`
    display: flex;
@@ -38,8 +62,7 @@ const Container = styled.div`
 const Cards = styled.ul`
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 3vh;
-  position: relative;
-  top: 3vh;
+  margin-top: 3vh;
   margin-bottom: 5vh;
   color: white;
   background-color: #7785AC;
@@ -59,9 +82,19 @@ const Text = styled.p`
   line-height: 1.75;
   width: 30vw;
   color: white;
-  position: relative;
-  left: 4.68vw;
-  top: 6vh;
+  margin-left: 4.68vw;
+  margin-top: 6vh;
+  width: 20vw;
+  @media (max-width:375px){
+    width: 70vw;
+    margin-top: 2vh;
+    
+  @media (max-width:768px){
+    width: 60vw;
+    margin-top: 2vh;
+    font-size: 3.5vh;
+  }
+}
 `
 export default class Dogs extends Component {
   state={
