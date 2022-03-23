@@ -12,6 +12,7 @@ const Title = styled.h1`
   font-size: 4.5vh;
   color: white;
   width: 20vw;
+  
   @media (max-width:375px){
     width: 70vw;
   }
@@ -82,7 +83,7 @@ const Text = styled.p`
   color: white;
   margin-left: 4.68vw;
   margin-top: 6vh;
-  
+
   @media (max-width:768px){
     width: 60vw;
     margin-top: 2vh;

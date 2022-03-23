@@ -32,7 +32,7 @@ const SubTitle = styled.h2`
   color: white;
   width: 30vw;
   text-decoration: underline;
-  width: 20vw;
+  
   @media (max-width:768px){
     width: 45vw;
     margin-top: 3vh;
