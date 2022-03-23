@@ -24,26 +24,30 @@ const SubTitle = styled.h2`
   color: white;
   width: 30vw;
   text-decoration: underline;
-  @media (max-width:375px){
-    width: 90vw;
-    margin-top: 2vh;
-  }
   @media (max-width:768px){
     width: 45vw;
     margin-top: 3vh;
   }
+
+  @media (max-width:375px){
+    width: 90vw;
+    margin-top: 2vh;
+  }
+ 
 `
 const Image = styled.img`
   width: 21vw;
   height: 35vh;
-  @media (max-width:375px){
-    width: 55vw;
-    height: 40vh;
-  }
   @media (max-width:768px){
     width: 35vw;
     height: 40vh;
   }
+
+  @media (max-width:375px){
+    width: 55vw;
+    height: 40vh;
+  }
+ 
 `
 const Container = styled.div`
   display: flex;
@@ -78,16 +82,19 @@ const Text = styled.p`
   color: white;
   margin-left: 4.68vw;
   margin-top: 6vh;
-  @media (max-width:375px){
-    width: 70vw;
-    margin-top: 2vh;
-  }
   
   @media (max-width:768px){
     width: 60vw;
     margin-top: 2vh;
     font-size: 3.5vh;
   }
+
+  @media (max-width:375px){
+    width: 70vw;
+    margin-top: 2vh;
+  }
+  
+ 
 `
 
 export default class Cats extends Component {

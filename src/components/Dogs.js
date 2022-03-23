@@ -12,14 +12,16 @@ const Title = styled.h1`
   font-size: 4.5vh;
   color: white;
   width: 20vw;
-  @media (max-width:375px){
-    width: 70vw;
-    margin-top: 75vh;
-  }
   @media (max-width:768px){
     margin-top: 40vh;
     width: 60vw;
   }
+  
+  @media (max-width:375px){
+    width: 70vw;
+    margin-top: 75vh;
+  }
+  
 `
 const SubTitle = styled.h2`
   font-family: 'Merriweather Sans', sans-serif;
@@ -30,26 +32,30 @@ const SubTitle = styled.h2`
   width: 30vw;
   text-decoration: underline;
   width: 20vw;
-  @media (max-width:375px){
-    width: 90vw;
-    margin-top: 2vh;
-  }
   @media (max-width:768px){
     width: 45vw;
     margin-top: 3vh;
   }
+
+  @media (max-width:375px){
+    width: 90vw;
+    margin-top: 2vh;
+  }
+ 
 `
 const Image = styled.img`
   width: 21vw;
   height: 35vh;
-  @media (max-width:375px){
-    width: 55vw;
-    height: 40vh;
-  }
   @media (max-width:768px){
     width: 35vw;
     height: 40vh;
   }
+
+  @media (max-width:375px){
+    width: 55vw;
+    height: 40vh;
+  }
+  
 `
 const Container = styled.div`
    display: flex;
@@ -85,15 +91,16 @@ const Text = styled.p`
   margin-left: 4.68vw;
   margin-top: 6vh;
   width: 20vw;
-  @media (max-width:375px){
-    width: 70vw;
-    margin-top: 2vh;
-    
   @media (max-width:768px){
     width: 60vw;
     margin-top: 2vh;
     font-size: 3.5vh;
   }
+
+  @media (max-width:375px){
+    width: 70vw;
+    margin-top: 2vh;
+    
 }
 `
 export default class Dogs extends Component {

@@ -12,21 +12,25 @@ const Icons = styled.div`
   display: flex; 
   justify-content: space-evenly;
   width: 30vw;
-  @media (max-width:375px){
-    width: 55vw;
-  }
   @media (max-width:768px){
     width: 40vw;
   }
+
+  @media (max-width:375px){
+    width: 55vw;
+  }
+ 
 `
 const Images = styled.img`
   width: 4vw;
-  @media (max-width:375px){
-    width: 8vw;
-  }
   @media (max-width:768px){
     width: 6vw;
   }
+  
+  @media (max-width:375px){
+    width: 8vw;
+  }
+
 `
 
 export default class Footer extends Component {

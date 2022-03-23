@@ -38,27 +38,31 @@ const Cards = styled.div`
   background-color: #7785AC;
   width: 27vw;
   height: 35vh;
+  @media (max-width:768px){
+    width: 40vw;
+    margin-top: 2vh;
+  }
+
   @media (max-width:375px){
    width: 80vw;
    margin-top: 2vh;
   }
-  @media (max-width:768px){
-    width: 40vw;
-    margin-top: 2vh;
-   }
+  
   
 `
 const Image_pet =styled.img`
   margin-top: 3vh;
   margin-left: 1vw;
   height: 25vh;
-  @media (max-width:375px){
-    height: 20vh;
-  }
   @media (max-width:768px){
     height: 20vh;
     margin-top: 5.5vh;
   }
+
+  @media (max-width:375px){
+    height: 20vh;
+  }
+ 
 `
 const Text = styled.p`
   display: flex;
@@ -69,13 +73,15 @@ const Text = styled.p`
   width: 13vw;
   color: white;
   margin-left: 1vw;
-  @media (max-width:375px){
-    width:45vw;
-  }
   @media (max-width:768px){
     width:20vw;
     font-size: 3vh;
   }
+  
+  @media (max-width:375px){
+    width:45vw;
+  }
+ 
 `
 
 export default class Main extends Component {
