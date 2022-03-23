@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Love-Pets/static/css/main.e6c13ad2.css",
+    "main.js": "/Love-Pets/static/js/main.11efd58f.js",
+    "static/js/787.26dc0024.chunk.js": "/Love-Pets/static/js/787.26dc0024.chunk.js",
+    "static/media/womanandpet.png": "/Love-Pets/static/media/womanandpet.aafae45ec72dc7afa434.png",
+    "static/media/pet.png": "/Love-Pets/static/media/pet.9710f3327c233b662c9c.png",
+    "static/media/cat.png": "/Love-Pets/static/media/cat.cc4c83a574b26f8032ff.png",
+    "static/media/menandpet.png": "/Love-Pets/static/media/menandpet.000b65674c90b56d3e45.png",
+    "static/media/dog.png": "/Love-Pets/static/media/dog.bc1fd46f8ae6930f75f0.png",
+    "static/media/instagram.png": "/Love-Pets/static/media/instagram.c1ec590d2a9248ebd2c1.png",
+    "static/media/whatsapp.png": "/Love-Pets/static/media/whatsapp.73ea6113f518a156db36.png",
+    "static/media/twitter.png": "/Love-Pets/static/media/twitter.30758be615c471ee1635.png",
+    "static/media/facebook.png": "/Love-Pets/static/media/facebook.c82e712deb578fcbb159.png",
+    "index.html": "/Love-Pets/index.html",
+    "main.e6c13ad2.css.map": "/Love-Pets/static/css/main.e6c13ad2.css.map",
+    "main.11efd58f.js.map": "/Love-Pets/static/js/main.11efd58f.js.map",
+    "787.26dc0024.chunk.js.map": "/Love-Pets/static/js/787.26dc0024.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.11efd58f.js"
+  ]
+}
