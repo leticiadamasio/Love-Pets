@@ -4,6 +4,8 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import { createGlobalStyle } from 'styled-components'
 
+//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
+
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;

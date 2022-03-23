@@ -12,11 +12,12 @@ const Title = styled.h1`
   font-size: 4.5vh;
   color: white;
   width: 20vw;
+
   @media (max-width:768px){
     margin-top: 40vh;
     width: 60vw;
   }
-  
+
   @media (max-width:375px){
     width: 70vw;
     margin-top: 75vh;
@@ -46,6 +47,7 @@ const SubTitle = styled.h2`
 const Image = styled.img`
   width: 21vw;
   height: 35vh;
+
   @media (max-width:768px){
     width: 35vw;
     height: 40vh;
@@ -90,7 +92,7 @@ const Text = styled.p`
   color: white;
   margin-left: 4.68vw;
   margin-top: 6vh;
-  width: 20vw;
+
   @media (max-width:768px){
     width: 60vw;
     margin-top: 2vh;
