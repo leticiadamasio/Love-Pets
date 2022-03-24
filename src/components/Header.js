@@ -17,7 +17,7 @@ const Images = styled.div `
     margin-left: 10vw;
   }
 
-  @media (max-width:427px){
+  @media (max-width:543px){
     width:15vw;
     margin-left: 10vw;
   }
@@ -49,7 +49,7 @@ const Title = styled.h1`
     margin-left: 7vw;
     }
 
-  @media (max-width:427px){
+  @media (max-width:543px){
       font-size: 10vh;
     }
   

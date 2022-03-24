@@ -43,7 +43,7 @@ const SubTitle = styled.h2`
     margin-top: 3vh;
   }
 
-  @media (max-width:427px){
+  @media (max-width:543px){
     width: 80vw;
     margin-top: 3vh;
   }
@@ -63,7 +63,7 @@ const Image = styled.img`
     height: 40vh;
   }
 
-  @media (max-width:427px){
+  @media (max-width:543px){
     width: 55vw;
     height: 40vh;
   }

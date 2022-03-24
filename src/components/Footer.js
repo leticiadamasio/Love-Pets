@@ -27,7 +27,7 @@ const Images = styled.img`
     width: 6vw;
   }
 
-  @media (max-width:427px){
+  @media (max-width:543px){
     width: 8vw;
   }
   
