@@ -16,7 +16,7 @@ const Title = styled.h2`
   font-size: 4.5vh;
   color: white;
   width: 40vw;
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 60vw;
   }
 
@@ -32,7 +32,7 @@ const Container = styled.div`
   height: 40vh;
   margin-top: 5vh;
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     margin-top: 2vh;
   }
   
@@ -53,7 +53,7 @@ const Cards = styled.div`
     margin-top: 2vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 80vw;
     margin-top: 2vh;
    }
@@ -74,7 +74,7 @@ const Image_pet =styled.img`
     margin-top: 5.5vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     height: 28vh;
     margin-top: 4vh;
   }
@@ -98,7 +98,7 @@ const Text = styled.p`
     font-size: 3vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width:38vw;
   }
   

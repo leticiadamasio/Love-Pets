@@ -17,7 +17,7 @@ const Images = styled.div `
     margin-left: 10vw;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width:15vw;
     margin-left: 10vw;
   }
@@ -49,7 +49,7 @@ const Title = styled.h1`
     margin-left: 7vw;
     }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
       font-size: 10vh;
     }
   
@@ -66,7 +66,7 @@ const Menu = styled.ul`
   color: black;
   background-color: #A5E6BA;
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     font-size: 2.8vh;
   }
 

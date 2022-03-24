@@ -18,7 +18,7 @@ const Title = styled.h1`
     width: 60vw;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 70vw;
     margin-top: 75vh;
   }
@@ -43,7 +43,7 @@ const SubTitle = styled.h2`
     margin-top: 3vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 80vw;
     margin-top: 3vh;
   }
@@ -63,7 +63,7 @@ const Image = styled.img`
     height: 40vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 55vw;
     height: 40vh;
   }
@@ -115,7 +115,7 @@ const Text = styled.p`
     font-size: 3.5vh;
   }
 
-  @media (max-width:425px){
+  @media (max-width:427px){
     width: 80vw;
     margin-top: 2vh;
     font-size: 3.5vh;
