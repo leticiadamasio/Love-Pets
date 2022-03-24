@@ -26,6 +26,10 @@ const Images = styled.img`
   @media (max-width:768px){
     width: 6vw;
   }
+
+  @media (max-width:425px){
+    width: 8vw;
+  }
   
   @media (max-width:375px){
     width: 8vw;

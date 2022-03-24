@@ -16,6 +16,11 @@ const Title = styled.h1`
   @media (max-width:375px){
     width: 70vw;
   }
+
+  @media (max-width:425px){
+    width: 70vw;
+  }
+  
 `
 const SubTitle = styled.h2`
   font-family: 'Merriweather Sans', sans-serif;
@@ -30,6 +35,11 @@ const SubTitle = styled.h2`
     margin-top: 3vh;
   }
 
+  @media (max-width:425px){
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
   @media (max-width:375px){
     width: 90vw;
     margin-top: 2vh;
@@ -41,6 +51,11 @@ const Image = styled.img`
   height: 35vh;
   @media (max-width:768px){
     width: 35vw;
+    height: 40vh;
+  }
+
+  @media (max-width:425px){
+    width: 55vw;
     height: 40vh;
   }
 
@@ -86,6 +101,12 @@ const Text = styled.p`
 
   @media (max-width:768px){
     width: 60vw;
+    margin-top: 2vh;
+    font-size: 3.5vh;
+  }
+
+  @media (max-width:425px){
+    width: 80vw;
     margin-top: 2vh;
     font-size: 3.5vh;
   }

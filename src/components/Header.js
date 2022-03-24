@@ -17,6 +17,11 @@ const Images = styled.div `
     margin-left: 10vw;
   }
 
+  @media (max-width:425px){
+    width:15vw;
+    margin-left: 10vw;
+  }
+
   @media (max-width:375px){
    width:15vw;
    margin-left: 10vw;
@@ -43,6 +48,10 @@ const Title = styled.h1`
   @media (max-width:768px){
     margin-left: 7vw;
     }
+
+  @media (max-width:425px){
+      font-size: 10vh;
+    }
   
   @media (max-width:375px){
     font-size:9vh;
@@ -56,6 +65,11 @@ const Menu = styled.ul`
   justify-content: space-evenly;
   color: black;
   background-color: #A5E6BA;
+
+  @media (max-width:425px){
+    font-size: 2.8vh;
+  }
+
   @media (max-width:375px){
   font-size: 2.5vh;
   }
@@ -70,6 +84,11 @@ const List =styled.a`
    justify-content: center;
 
    @media (max-width:768px){
+    text-align: center;
+  }
+
+  @media (max-width:425px){
+    width:25vw;
     text-align: center;
   }
 

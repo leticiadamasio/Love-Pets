@@ -16,6 +16,10 @@ const Title = styled.h2`
   font-size: 4.5vh;
   color: white;
   width: 40vw;
+  @media (max-width:425px){
+    width: 60vw;
+  }
+
   @media (max-width:375px){
     font-size: 3.5vh;
   }
@@ -27,6 +31,11 @@ const Container = styled.div`
   justify-content: space-evenly;
   height: 40vh;
   margin-top: 5vh;
+
+  @media (max-width:425px){
+    margin-top: 2vh;
+  }
+  
   @media (max-width:375px){
     margin-top: 2vh;
   }
@@ -38,11 +47,17 @@ const Cards = styled.div`
   background-color: #7785AC;
   width: 27vw;
   height: 35vh;
+
   @media (max-width:768px){
     width: 40vw;
     margin-top: 2vh;
   }
 
+  @media (max-width:425px){
+    width: 80vw;
+    margin-top: 2vh;
+   }
+   
   @media (max-width:375px){
    width: 80vw;
    margin-top: 2vh;
@@ -57,6 +72,11 @@ const Image_pet =styled.img`
   @media (max-width:768px){
     height: 20vh;
     margin-top: 5.5vh;
+  }
+
+  @media (max-width:425px){
+    height: 28vh;
+    margin-top: 4vh;
   }
 
   @media (max-width:375px){
@@ -76,6 +96,10 @@ const Text = styled.p`
   @media (max-width:768px){
     width:20vw;
     font-size: 3vh;
+  }
+
+  @media (max-width:425px){
+    width:38vw;
   }
   
   @media (max-width:375px){
